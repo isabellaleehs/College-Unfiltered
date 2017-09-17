@@ -6,6 +6,7 @@
 
 body {
     padding-top: 54px;
+    background-color: rgb(255,235,205);
 }
 
 @media (min-width: 992px) {
@@ -14,6 +15,3 @@ body {
     }
 }
 
-#banner {
-	background-color: rgb(255,235,205);
-}
