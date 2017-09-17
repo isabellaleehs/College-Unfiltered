@@ -2383,6 +2383,9 @@ var Modal = function ($) {
    * ------------------------------------------------------------------------
    */
 
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
   $.fn[NAME] = Modal._jQueryInterface;
   $.fn[NAME].Constructor = Modal;
   $.fn[NAME].noConflict = function () {
@@ -2390,8 +2393,8 @@ var Modal = function ($) {
     return Modal._jQueryInterface;
   };
 
-  return Modal;
-}(jQuery);
+    return Modal;
+  }(jQuery);
 
 /**
  * --------------------------------------------------------------------------

@@ -28,7 +28,7 @@ body {
   display: table;
   width: 80%;
   height: auto;
-  padding: 200px 400px;
+  padding: 200px 400px 200px 400px;
   text-align: center;
   color: white;}
   .masthead .intro-body {
