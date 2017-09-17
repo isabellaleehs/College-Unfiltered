@@ -33,16 +33,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * --------------------------------------------------------------------------
  */
 
-$("#myBtn").click(function(){
-  $("#myModal").modal();
-});
-
 $.fn[NAME] = Modal._jQueryInterface;
 $.fn[NAME].Constructor = Modal;
 $.fn[NAME].noConflict = function () {
   $.fn[NAME] = JQUERY_NO_CONFLICT;
   return Modal._jQueryInterface;
 };
+
+$("#myBtn").click(function(){
+  $("#myModal").modal();
+});
 
   return Modal;
 }(jQuery);
