@@ -13,3 +13,7 @@ body {
         padding-top: 56px;
     }
 }
+
+.container {
+	background-color: rgb(255,235,205);
+}
