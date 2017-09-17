@@ -6,13 +6,34 @@
 
 body {
     padding-top: 54px;
-    background-color: rgb(128,0,0);
+    /*background-color: #ffeecc;*/
     font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #FFF;
+    color: black;
+
+	background: url("../img/wallpaper.jpg") no-repeat center center fixed;  
+	background-color: black;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
 }
 
 .rounded-circle {
-	padding: 15px 15px;
+	padding: 25px 15px 15px 15px;
+}
+
+.my-4 {
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.my-5 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.searchme {
+	padding: 0px 0px 0px 0px;
 }
 
 @media (min-width: 992px) {
