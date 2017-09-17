@@ -53,5 +53,16 @@ input[type=text]:focus {
     width: 100%;
 }
 
+.fbmessage .emailme {
+	a:link, a:visited {
+	    background-color: #3b5998;
+	    color: white;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;}
 
+
+	a:hover, a:active {
+    	background-color: #6d84b4;}
+}
 
