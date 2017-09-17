@@ -11,8 +11,10 @@
 }
 
 .intro-body {
-	background-color: #FFF;
+	background-color: rgba(255,255,255,0.8);
 	color: #000;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
 }
 
 body {
@@ -28,24 +30,33 @@ body {
   display: table;
   width: 70%;
   height: auto;
-  padding: 500px 500px;
-  text-align: center !important;
-  color: rgba(255,255,255,0.8);}
-  .masthead .intro-body {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.masthead .intro-body {
     display: table-cell;
-    vertical-align: middle; }
-    .masthead .intro-body .brand-heading {
-      font-size: 50px; }
-    .masthead .intro-body .intro-text .intro-text-2 {
-      font-size: 18px; }
+    vertical-align: middle; 
+}
+.masthead .intro-body .brand-heading {
+      font-size: 100px; 
+}
+.masthead .intro-body .intro-text .intro-text-2 {
+      font-size: 40px; 
+}
   @media (min-width: 768px) {
-    .masthead {
+.masthead {
       height: 100%;
       padding: 0; }
-      .masthead .intro-body .brand-heading {
-        font-size: 100px; }
-      .masthead .intro-body .intro-text .intro-text-2 {
-        font-size: 22px; } }
+
+.masthead .intro-body .brand-heading {
+        font-size: 100px; 
+}
+.masthead .intro-body .intro-text .intro-text-2 {
+        font-size: 40px; 
+} }
 
 .modal-header, h4, .close {
       background-color: #5cb85c;

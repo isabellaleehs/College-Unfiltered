@@ -6,8 +6,13 @@
 
 body {
     padding-top: 54px;
-    background-color: rgb(255,235,205);
+    background-color: rgb(128,0,0);
     font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #FFF;
+}
+
+.rounded-circle {
+	padding: 15px 15px;
 }
 
 @media (min-width: 992px) {
@@ -15,4 +20,7 @@ body {
         padding-top: 56px;
     }
 }
+
+
+
 
