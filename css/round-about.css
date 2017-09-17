@@ -14,6 +14,6 @@ body {
     }
 }
 
-.container {
+#banner {
 	background-color: rgb(255,235,205);
 }
