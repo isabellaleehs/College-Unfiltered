@@ -26,9 +26,9 @@ body {
 
 .masthead {
   display: table;
-  width: 100%;
+  width: 80%;
   height: auto;
-  padding: 200px 0;
+  padding: 200px 400px;
   text-align: center;
   color: white;}
   .masthead .intro-body {
@@ -46,5 +46,15 @@ body {
         font-size: 100px; }
       .masthead .intro-body .intro-text .intro-text-2 {
         font-size: 22px; } }
+
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+ }
+  .modal-footer {
+      background-color: #f9f9f9;
+ }
 
 
