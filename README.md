@@ -9,6 +9,8 @@ This website is still static and in development. When fully developed, we hope t
 
 HackMIT team: Isabella Lee, Anjali Modi, Regine DeGuzman
 
+All current code for the static website (built from Bootstrap) was written by Isabella Lee.
+
 ## Copyright and License
 
 Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-round-about/blob/gh-pages/LICENSE) license.
